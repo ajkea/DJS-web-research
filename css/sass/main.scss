@@ -1,7 +1,95 @@
+// colors
+$color1: #247ba0;
+$color2: #f6f7eb;
+$color3: #E94F37;
+$color4: #393E41;
+$color5: #44BBA4;
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Roboto');
+$font-body: 'Roboto';
+$font-heading: 'Baloo Chettan', cursive;
+
+
+
+
+
 body {
-    background-image: url('../img/geometry.png')
+    font-family: $font-body;
+    background:$color1;    
 }
 
-svg{
-    background-color: red;
+h1{
+    font-family: $font-heading;
+    font-size: 4em;
+}
+
+.container{
+    background:$color2;
+}
+
+.chart{
+            font-size: 1em;
+            background-color: black;
+            text-align: right;
+            padding: .5em;
+            margin:.1em;
+            color: white;
+}
+
+.legende{
+    list-style: square;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.canvasjs{
+    #pieChartContainer{
+        background-color: black;
+    }
+}
+
+.navbar{
+    a{
+    font-size: 1em;
+    font-family: $font-body;
+    }
+}
+
+.logboek{
+    padding-bottom: 1em;
+    .dag{
+    margin: 1em;
+    padding:.5em;
+    background-color: $color5;
+    border-radius: 5px;
+        p{
+            font-size: 1em
+        }
+        h6{
+        font-size: .8em;
+        line-height: .2em;
+        }
+        a{
+            color: $color1;
+        }
+    }
+}
+
+#circle_01 {
+	fill: white;
+	fill-opacity: 0;
+	stroke: darkorchid;
+	stroke-width: 2;
+}
+#spoke_01 {
+	fill: none;
+	stroke: #602;
+	stroke-width: 2;
+	stroke-linecap: round;
+}
+#report {
+	fill: #602;
+	stroke: none;
+	font: 16pt sans-serif;
 }

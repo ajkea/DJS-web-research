@@ -1,7 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Chettan|Roboto");
 body {
-  background-image: url("../img/geometry.png"); }
+  font-family: "Roboto";
+  background: #247ba0; }
 
-svg {
-  background-color: red; }
+h1 {
+  font-family: "Baloo Chettan", cursive;
+  font-size: 4em; }
+
+.container {
+  background: #f6f7eb; }
+
+.chart {
+  font-size: 1em;
+  background-color: black;
+  text-align: right;
+  padding: .5em;
+  margin: .1em;
+  color: white; }
+
+.legende {
+  list-style: square;
+  text-align: left;
+  padding-left: 2em; }
+
+.canvasjs #pieChartContainer {
+  background-color: black; }
+
+.navbar a {
+  font-size: 1em;
+  font-family: "Roboto"; }
+
+.logboek {
+  padding-bottom: 1em; }
+  .logboek .dag {
+    margin: 1em;
+    padding: .5em;
+    background-color: #44BBA4;
+    border-radius: 5px; }
+    .logboek .dag p {
+      font-size: 1em; }
+    .logboek .dag h6 {
+      font-size: .8em;
+      line-height: .2em; }
+    .logboek .dag a {
+      color: #247ba0; }
+
+#circle_01 {
+  fill: white;
+  fill-opacity: 0;
+  stroke: darkorchid;
+  stroke-width: 2; }
+
+#spoke_01 {
+  fill: none;
+  stroke: #602;
+  stroke-width: 2;
+  stroke-linecap: round; }
+
+#report {
+  fill: #602;
+  stroke: none;
+  font: 16pt sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

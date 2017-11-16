@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <meta http-equiv="refresh" content="2" > -->
+        <title>D3 part 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/light.js"></script>
+        <script src="js/fontawesome.js"></script>
+        <script src="js/d3.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
+        <!-- scripts voor speciale charts -->
+        <!-- ############################## -->
+
+    </head>
+    <body onload="changeText()">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="d3part1.html">D3JS<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="canvasjs.html">CanvasJS</a>
+                    <a class="nav-item nav-link" href="logboek.html">Logboek</a>
+                    </div>
+                </div>
+            </nav>
+            <h1>Vormpjes</h1>
+            <div class="row text-center">
+                <div class="col col-md-4">
+                    <h2>Staafdiagram</h2>
+                    <svg class="chartExample" id="rectangleChart" height="200" width="200"></svg>
+                    <div id="legende0" class="legende"></div>
+                </div>
+                <div class="col col-md-4">
+                    <h2>Cirkel</h2>
+                    <svg class="chartExample" id="circleChart" height="200" width="200"></svg>
+                    <div id="legende1" class="legende"></div>
+                </div>
+                <div class="col col-md-4">
+                    <h2>Donut</h2>
+                    <svg class="chartExample" id="pieChart" height="200" width="200"></svg>
+                    <div id="legende2" class="legende"></div>
+                </div>
+            </div>
+            
+        <script src="js/d3.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
