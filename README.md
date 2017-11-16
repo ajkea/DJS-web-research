@@ -1,3 +1,5 @@
+Logboek volledig op de website.
+
 #### Logboek
 ## 23/09
 Inschrijven op een maillist voor gratis lessen over D3JS
